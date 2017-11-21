@@ -2,4 +2,4 @@
 
 from scrapy.cmdline import execute
 
-execute("scrapy crawl demoSpider".split())
+execute("scrapy crawl girlImgSpider".split())
