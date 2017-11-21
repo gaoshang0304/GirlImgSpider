@@ -10,7 +10,7 @@ from demoSpider.items import DemospiderItem
 
 class MySpider(scrapy.Spider):
 	# 爬虫名
-	name = "demoSpider"
+	name = "girlImgSpider"
 	# 基础url
 	host = "http://www.7160.com/"
 	start_urls = ['http://www.7160.com/rentiyishu/list_1_1.html']
